@@ -1,18 +1,19 @@
 #include<stdio.h>
+#define RADIO 60
 int main()
 {
     
     int minutes;
     int hour,minute;
-    const int radio = 60;
-
+    printf("Please enter minutes:");
     scanf("%d",&minutes);
     while(minutes>0){
 
-        hour = minutes / radio;
-        minute = minutes %radio;
+        hour = minutes / RADIO;
+        minute = minutes %RADIO;
 
-        printf("%d minutes is %d hours %d minutes",minutes,hour,minute);
+        printf("%d minutes is %d hours %d minutes\n",minutes,hour,minute);
+        printf("Please enter minutes:");
 
         scanf("%d",&minutes );
         
