@@ -1,8 +1,3 @@
-/*  1 cm =0.3937 inch
-    1 feet = 12 inch
-    */
-
-
 #include<stdio.h>
 #define RADIO 0.3937
 int main()

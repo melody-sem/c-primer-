@@ -1,4 +1,3 @@
-/* addemup.c -- five kinds of statements */
 #include <stdio.h>
 int main(void)                /* finds sum of first 20 integers */
 {

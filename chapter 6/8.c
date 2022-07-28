@@ -12,5 +12,6 @@ int main( void )
         printf("(%.3g - %.3g)/(%.3g*%.3g) = %.5g\n", n, m, n, m, res); 
         printf("Enter next pair (non-numeric to quit): "); 
     }
+    
     return 0;
 }
